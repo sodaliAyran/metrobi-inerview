@@ -3,11 +3,7 @@
 # Therefore I need to start dropping eggs from 14th floor and continue
 # You can find a good explanation to this here: https://medium.com/@khopsickle/2-eggs-and-100-floors-a032beb77aaa#:~:text=A%20building%20has%20100%20floors,can%20drop%20the%20egg%20again.
 
-import random
-
 FLOOR_COUNT = 100
-egg_breaking_floor = random.randint(1, FLOOR_COUNT+1) # It starts from 1 because you can't(shouldn't) break the egg at the floor 0, you just put it down like a normal person
-
 # As I stated above I start dropping from floor 14 but this can be generalized.
 
 def drop_egg(break_point):
