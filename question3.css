@@ -1,0 +1,45 @@
+.col {
+  text-align: center;
+  margin-right: 0px;
+}
+
+h1 {
+  color: white;
+  padding-top: 0.3em;
+}
+
+#hero {
+  background-color: purple;
+  height: 40%;
+}
+
+#sidebar {
+  background-color: lightgreen;
+  height: 60%;
+}
+
+#main {
+  background-color: yellow;
+  height: 78.5%;
+}
+
+#extra {
+  background-color: grey;
+  height: 20%;
+}
+
+#related-images {
+  background-color: green;
+    height: 100%;
+}
+
+#related-posts {
+  background-color: pink;
+    height: 100%;
+}
+
+p {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
