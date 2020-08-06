@@ -1,8 +1,7 @@
-# TBH I'm not sure if this is true here is my answer
+# TBH I'm not sure if this is true but here is my answer.
 
 import asyncio
 import time
-
 
 async def say_after(delay, what):
     await asyncio.sleep(delay)
