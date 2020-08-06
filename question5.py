@@ -1,10 +1,12 @@
 # Worst case scenario is 14 drops which is the solution to the given equation:
 # x * (x+1)/2 = 100
 # Therefore I need to start dropping eggs from 14th floor and continue
-# You can find a good explanation to this here: https://medium.com/@khopsickle/2-eggs-and-100-floors-a032beb77aaa#:~:text=A%20building%20has%20100%20floors,can%20drop%20the%20egg%20again.
+# You can find a good explanation to this here:
+# https://medium.com/@khopsickle/2-eggs-and-100-floors-a032beb77aaa#:~:text=A%20building%20has%20100%20floors,can%20drop%20the%20egg%20again.
 
 FLOOR_COUNT = 100
-# As I stated above I start dropping from floor 14 but this can be generalized.
+# As I stated above I start dropping from floor 14 but this can be generalized
+# like start_floor = (start_floor+1)/egg_count = floor_count
 
 def drop_egg(break_point):
     min_floor = 0
