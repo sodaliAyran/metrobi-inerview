@@ -1,4 +1,4 @@
-def carrot_bag(capacity, carrot_types):
+def get_max_value(capacity, carrot_types):
     K = [[0 for x in range(capacity + 1)] for x in range(len(carrot_types) + 1)]
     carrot_weights = list(carrot_types.keys())
     carrot_prices = list(carrot_types.values())
@@ -19,8 +19,8 @@ val = [60, 100, 120]
 wt = [10, 20, 30]
 bag1 = {5: 100, 7: 150, 3: 70}
 capacity1 = 36
-print(carrot_bag(capacity1, bag1))
+print(get_max_value(capacity1, bag1))
 
 bag2 = {10: 60, 20: 100, 30: 120}
 capacity2 = 50
-print(carrot_bag(capacity2, bag2))
+print(get_max_value(capacity2, bag2))
