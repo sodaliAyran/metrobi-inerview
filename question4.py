@@ -1,6 +1,7 @@
-# I'm not ashamed to say I found this answer on this site: https://levelup.gitconnected.com/valid-parentheses-interview-problem-in-python3-f98fb99c9cf
-#  But let me just say they thought this to me in school and I did know to use stacks to solve this problem
-
+# I'm not ashamed to say I found this answer on this site:
+# https://levelup.gitconnected.com/valid-parentheses-interview-problem-in-python3-f98fb99c9cf
+# But let me just say they thought this to me at school and I did knew that I
+# should use stacks to solve this problem.
 
 def is_valid_paren(input_str):
     pairs = {'(': ')', '[': ']', '{': '}'}
